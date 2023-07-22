@@ -1,15 +1,9 @@
 import "./style.css"
-import { SketchPicker } from 'react-color';
 import { useThemeContext } from "../context/ThemeContext"
-import { useState } from "react";
 
 const Setting = () => {
   document.title="Moris-Media: Setting"
-
-
   const { changeColor } = useThemeContext(useThemeContext)
-
-
   const handleClick = (colorSet) => {
     changeColor(colorSet)
   }
