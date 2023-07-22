@@ -10,8 +10,8 @@ import { PieChart, Pie } from 'recharts';
     { name: 'Geek-i-knack', students: 200 ,fill:"yellow",label:"Geek-i-knack"},
     { name: 'Geek-o-mania', students: 1000 ,fill:"orange",label:"Geek-o-mania"},
     { name: 'Geek-o-mania', students: 400 ,fill:"voilet",label:"Technical scripter"},
-    { name: 'Technical scripter', students: 700 ,fill:"rose",label:"Geek-o-mania"},
-    { name: 'Geek-i-knack', students: 200 ,fill:"brown",label:"Geeksforgeeks"},
+    { name: 'Technical scripter', students: 700 ,fill:"rose",label:"Geek-o"},
+    { name: 'Geek-i-knack', students: 200 ,fill:"brown",label:"Geeksgeeks"},
     { name: 'Geek-o-mania', students: 1000,fill:"aqua",label:"Geek-i-knack" },
     
 
