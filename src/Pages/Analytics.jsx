@@ -19,7 +19,7 @@ import { PieChart, Pie } from 'recharts';
   return (
     <div className='pieChartData'>
         <PieChart width={700} height={440}>
-            <Pie data={data} dataKey="students" y-axis={(data)=>{return data.y}} label={(data) => { return data.titlName}} outerRadius={200} fill={data.fill}  />
+            <Pie data={data} dataKey="students" y-axis={(data)=>{return data.y}} label={(data) => { return data.name}} outerRadius={200} fill={data.fill}  />
         </PieChart>
      </div>
   )
